@@ -1,0 +1,9 @@
+# Dependensi
+node_modules/
+npm-debug.log*
+
+# Konfigurasi Rahasia
+.env
+
+# Database Lokal (Opsional, agar database lokal tidak menimpa di Git)
+database.json

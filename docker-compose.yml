@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  scheduler-bot:
+    build: .
+    container_name: ai-scheduler-bot
+    restart: always
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+      - /app/node_modules
