@@ -20,7 +20,7 @@ const client = new Client({
 
 // Inisialisasi Gemini AI
 const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
-const aiModel = genAI.getGenerativeModel({ model: "gemini-2.5-flash-lite" });
+const aiModel = genAI.getGenerativeModel({ model: "gemini-3.5-flash" });
 
 let channel;
 
